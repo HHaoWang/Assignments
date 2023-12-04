@@ -27,21 +27,22 @@ namespace Assignment02.Services
 {
     public class OrderService
     {
-        private static readonly List<OrderDto> _ordersList = new();
-        private readonly GoodsService _goodsService = new GoodsService();
-        private readonly UserService _userService = new UserService();
+        private static List<OrderDto> _ordersList = new();
+        private readonly GoodsService _goodsService;
+        private readonly UserService _userService;
 
-        // 订单方法
+        // order
         public async Task<bool> PlacingAnOrder(OrderDto order)
         {
             if (order == null) // 如果订单为null，则返回false
             {
                 return false;
             }
-
+            
+            //捕获异常
             try
             {
-                // 获取订单对应的user和goods
+                // 获取order对应的user和goods
                 var user = await _userService.GetUserById(order.UserId);
                 var goods = await _goodsService.GetGoodsById(order.GoodsId);
 
@@ -55,11 +56,9 @@ namespace Assignment02.Services
                 decimal discount = CalculateDiscount(user.Points);
                 decimal total = goods.Price * order.Count * discount;
 
-                // 将total赋值给订单的FinalPrice
-                order.FinalPrice = total;
+                order.FinalPrice = total;//赋值
 
-                // 将order添加到_ordersList中
-                _ordersList.Add(order);
+                _ordersList.Add(order);//添加
 
                 return true;
             }
@@ -69,16 +68,16 @@ namespace Assignment02.Services
             }
         }
 
-
-        // 计算折扣的方法
+        // 计算discount
         private decimal CalculateDiscount(int points)
         {
             if (points < 1000)
             {
-                return 1.0m; // 不优惠
+                return 1.0m; // none
             }
             else if (points < 3000)
             {
+
                 return 0.95m; // 9.5折
             }
             else if (points < 10000)
