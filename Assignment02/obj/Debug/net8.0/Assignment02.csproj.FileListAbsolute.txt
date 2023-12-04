@@ -1,0 +1,15 @@
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\bin\Debug\net8.0\Assignment02.exe
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\bin\Debug\net8.0\Assignment02.deps.json
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\bin\Debug\net8.0\Assignment02.runtimeconfig.json
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\bin\Debug\net8.0\Assignment02.dll
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\bin\Debug\net8.0\Assignment02.pdb
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.AssemblyInfoInputs.cache
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.AssemblyInfo.cs
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.csproj.CoreCompileInputs.cache
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.sourcelink.json
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.dll
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\refint\Assignment02.dll
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.pdb
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\Assignment02.genruntimeconfig.cache
+C:\Users\杨茂之\Desktop\作业\晨读队作业\代码仓库\Assignments\Assignment02\Assignment02\obj\Debug\net8.0\ref\Assignment02.dll
